@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bus Pass</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700" rel="stylesheet">
+  <link href="fonts/icomoon/style.css" rel="stylesheet">
+  <style>
+    /* Reset styles */
+    h1{
+      color: black;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: antiquewhite;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    /* Header styles */
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .site-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .site-menu li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .site-menu li a {
+      text-decoration: none;
+      color: black;
+    }
+    /* Cover section styles */
+    .site-blocks-cover {
+      background-image: url(images/test1.jpg);
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 100px 0;
+    }
+    .site-blocks-cover h1 {
+      color: black;
+      font-weight: lighter;
+    }
+    .btn {
+      display: inline-block;
+      background-color: gray;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    /* Section styles */
+    .site-section {
+      padding: 50px 0;
+    }
+    .unit-1-heading {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header style="background-color: antiquewhite;">
+  <div class="container">
+    <div class="site-navbar">
+      <h1><a style="color:black;" href="index.html" class="text-black h2 mb-0">Bus Pass</a></h1>
+      <nav>
+        <ul class="site-menu">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="manage.php">Manage Pass</a></li>
+          <li><a href="bus_details.html">Bus Details</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="site-blocks-cover">
+  <div class="container">
+    <div class="col-md-12">
+      <h1>Online Bus Pass Booking System</h1>
+      <p><a href="book.php" class="btn">Book Now!</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="site-section">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-7 text-center">
+        <h2>Our Destinations</h2>
+        <p>Choose Your Next Destination</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+        <a href="#" class="unit-1 text-center">
+          <img src="images/hyd.jpg" alt="Hyderabad" class="img-fluid" style="height: 200px">
+          <div class="unit-1-text">
+              <h3 class="unit-1-heading">Hyderabad</h3>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+            <a href="#" class="unit-1 text-center">
+              <img src="images/kurnool.jpg" alt="Hyderabad" class="img-fluid" style="height: 200px">
+              <div class="unit-1-text">
+                  <h3 class="unit-1-heading">Kurnool</h3>
+              </div>
+        </a>
+      </div>
+      <!-- Add more destinations here -->
+    </div>
+  </div>
+</div>
+
+<footer>
+  <!-- Footer content -->
+</footer>
+
+</body>
+</html>
